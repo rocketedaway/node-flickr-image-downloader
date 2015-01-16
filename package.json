@@ -1,0 +1,32 @@
+{
+  "name": "flickr-image-downloader",
+  "version": "0.1.0",
+  "description": "Library to download images from Flickr using their HTTPS API. No API keys required.",
+  "main": "flickr-image-downloader",
+  "author": {
+    "name": "Randy Wilander",
+    "email": "",
+    "url": "https://github.com/rwwebdesign"
+  },
+  "license": "MIT",
+  "keywords": [
+    "flickr",
+    "image",
+    "downloader",
+    "stream",
+    "photostream",
+    "album",
+    "nodejs"
+  ],
+  "repository": { 
+    "type" : "git",
+    "url" : "https://github.com/rwwebdesign/Node-Flickr-Image-Downloader.git"
+  },
+  "bugs": "https://github.com/rwwebdesign/Node-Flickr-Image-Downloader/issues",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "lodash": "^2.4.1",
+    "request": "^2.51.0",
+    "fs-extra": "^0.14.0"
+  }
+}

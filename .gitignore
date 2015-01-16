@@ -1,0 +1,5 @@
+# Dir Ignores
+node_modules/
+
+# Misc Ignores
+.DS_Store
